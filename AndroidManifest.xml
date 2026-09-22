@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ambulance"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ambulance"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EKAVpraxis">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_GOOGLE_MAPS_API_KEY" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.ekavpraxis.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".WelcomePage"
+            android:exported="true"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.auth.LoginSpoudasti"
+            android:exported="false"
+            android:label="Login Σπουδαστή" />
+
+        <activity
+            android:name=".ui.student.HomepageSpoudasti"
+            android:exported="false"
+            android:label="Αρχική Σπουδαστή" />
+
+        <activity
+            android:name=".LoginGrammateias"
+            android:exported="false"
+            android:label="Login Γραμματείας" />
+
+        <activity
+            android:name=".HomepageGrammateias"
+            android:exported="false"
+            android:label="Αρχική Γραμματείας" />
+
+        <activity
+            android:name=".ProvoliKartelonSpoudaston"
+            android:exported="false"
+            android:label="Προβολή Καρτελών" />
+
+        <activity
+            android:name=".StudentDetailsTable"
+            android:exported="false"
+            android:label="Λεπτομέρειες Σπουδαστή" />
+
+        <activity
+            android:name=".AnartisiAsthenoforon"
+            android:exported="false"
+            android:label="Ανάρτηση Ασθενοφόρων" />
+
+        <activity
+            android:name=".ui.student.AnartisiFyllou"
+            android:exported="false"
+            android:label="Ανάρτηση Φύλλου" />
+
+        <activity
+            android:name=".ui.student.Forma1"
+            android:exported="false"
+            android:label="Φόρμα 1" />
+
+        <activity
+            android:name=".ui.student.Forma2"
+            android:exported="false"
+            android:label="Φόρμα 2" />
+
+        <activity
+            android:name=".ui.student.Forma3"
+            android:exported="false"
+            android:label="Φόρμα 3" />
+
+        <activity
+            android:name=".ui.student.Forma4"
+            android:exported="false"
+            android:label="Φόρμα 4" />
+
+        <activity
+            android:name=".ui.student.VirtualSignatureSp"
+            android:exported="false"
+            android:label="Υπογραφή" />
+
+        <activity
+            android:name=".ui.student.Forma5"
+            android:exported="false"
+            android:label="Φόρμα 5" />
+
+        <activity
+            android:name=".ui.student.Forma6"
+            android:exported="false"
+            android:label="Φόρμα 6" />
+
+        <activity
+            android:name=".ui.student.VirtualSignaturePliroma"
+            android:exported="false"
+            android:label="Υπογραφή Πληρώματος" />
+
+        <activity
+            android:name=".ui.student.DilosiProgrammatos"
+            android:exported="false"
+            android:label="Δήλωση Προγράμματος" />
+
+        <activity
+            android:name=".ui.student.EpiskopisiProgrammatos"
+            android:exported="false"
+            android:label="Επισκόπηση Προγράμματος" />
+
+        <activity
+            android:name=".ui.student.ProvoliStoicheion"
+            android:exported="false"
+            android:label="Προβολή Στοιχείων" />
+
+        <activity
+            android:name=".ui.student.ProsopikoImerologio"
+            android:exported="false"
+            android:label="Προσωπικό Ημερολόγιο" />
+
+        <activity
+            android:name=".ui.student.XartisAsthenoforon"
+            android:exported="false"
+            android:label="Χάρτης Ασθενοφόρων" />
+
+        <activity
+            android:name=".OcrResultActivity"
+            android:exported="false"
+            android:label="Αποτέλεσμα OCR" />
+
+    </application>
+
+</manifest>
