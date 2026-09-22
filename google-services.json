@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558335971721",
+    "project_id": "ekavpraxis",
+    "storage_bucket": "ekavpraxis.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558335971721:android:5aa1e8fc8a50b910d3d158",
+        "android_client_info": {
+          "package_name": "com.example.ekavpraxis"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqN-8NSR6-2Yux7YLz_hOz0D741V6wt_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558335971721:android:59eeba7c6453f93dd3d158",
+        "android_client_info": {
+          "package_name": "com.example.ekavpraxisapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqN-8NSR6-2Yux7YLz_hOz0D741V6wt_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Σελίδα-1" id="3wjjailOR3e6Ile1kGGV">
+    <mxGraphModel dx="1030" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zKNw5VMwPBfE-yftBobr-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;strokeWidth=2;fontColor=#FFFF00;" value="Σπουδαστής" vertex="1">
+          <mxGeometry height="60" width="30" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;strokeWidth=2;fontColor=#FFFF00;" value="Γραμματεία" vertex="1">
+          <mxGeometry height="60" width="30" x="590" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-9" parent="1" style="html=1;whiteSpace=wrap;fillColor=none;strokeWidth=2;strokeColor=#FFFF00;" value="" vertex="1">
+          <mxGeometry height="410" width="270" x="225" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontStyle=1;fontSize=15;fontColor=#FF8000;" value="EKAVpraxis" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontColor=#FF8000;" value="Δέσμευση ασθενοφόρου" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontColor=#FF8000;" value="Αυθεντικοποίηση" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontColor=#FF8000;" value="Ανάρτηση διαθεσιμότητας" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-17" edge="1" parent="1" source="zKNw5VMwPBfE-yftBobr-1" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF8000;" target="zKNw5VMwPBfE-yftBobr-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-19" edge="1" parent="1" source="zKNw5VMwPBfE-yftBobr-15" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF8000;" target="zKNw5VMwPBfE-yftBobr-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-23" edge="1" parent="1" source="zKNw5VMwPBfE-yftBobr-12" style="endArrow=classic;html=1;rounded=0;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF8000;" target="zKNw5VMwPBfE-yftBobr-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="230" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zKNw5VMwPBfE-yftBobr-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontColor=#FF8000;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
